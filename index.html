@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Travelid Homepage</title>
+	<link rel="stylesheet" href="../asset/css/Bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="../asset/css/fontawesome-free-6.4.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="../asset/css/package/animate.min.css" />
+	<script src="../asset/css/Bootstrap/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="/asset/css/style.css" />
+</head>
+
+<body>
+	<header>
+		<div class="container-fluid bg-light fixed-top shadow">
+			<nav class="navbar navbar-expand-md navbar-light bg-light">
+				<div class="container">
+					<a class="navbar-brand fw-bold fs-3" href="#">Travel<span class="text-primary">id.</span></a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+						aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+						<ul class="navbar-nav me-0 me-md-3 mb-3 mb-md-0 align-items-center gap-2 gap-md-4">
+							<li class="nav-item border-bottom border-3 border-primary">
+								<a class="nav-link p-0 active text-primary fw-semibold fs-5" aria-current="page"
+									href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link p-0 text-dark fw-medium fs-5" href="/html/about-us.html">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link p-0 text-dark fw-medium fs-5"
+									href="/html/catalogue.html">Catalogue</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link p-0 text-dark fw-medium fs-5"
+									href="/html/destination.html">Destination</a>
+							</li>
+						</ul>
+						<form class="d-flex flex-column flex-md-row gap-2">
+							<a href="/html/log-in.html"><button class="btn btn-primary fw-medium w-100" type="button">
+									Login
+								</button></a>
+							<button class="btn btn-outline-primary fw-medium" type="submit">
+								Sign Up
+							</button>
+						</form>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<div class="container mt-5 pt-5">
+			<section id="intro" class="mt-5 row pb-5">
+				<div
+					class="left-content text-dark col-12 col-md-6 pe-0 pe-md-5 m-0 mb-3 mb-md-0 d-flex flex-column align-items-center align-items-md-start justify-content-between">
+					<h1 class="display-5 fw-bold">
+						Travel, Enjoy And Live
+						<span class="text-primary">A New Full Life</span>
+					</h1>
+					<p class="fs-5 fw-medium">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+						nostrum provident, saepe fuga deserunt sapiente unde molestias,
+						quia a est optio error iusto aliquam officiis voluptatibus
+						quibusdam dignissimos.saepe fuga deserunt sapiente unde molestias,
+						quia a est optio error iusto aliquam officiis voluptatibus
+						quibusdam dignissimos.
+					</p>
+					<button type="button" class="btn btn-primary px-5 px-md-3 fw-bold">
+						Joint Us
+					</button>
+				</div>
+				<div class="left-content col-12 col-md-6">
+					<img src="/asset/img/intro-img.png" alt="intro image"
+						class="img-fluid rounded-3 shadow h-100 mx-auto object-fit-cover" />
+				</div>
+			</section>
+			<section id="destination" class="mt-5 pb-5">
+				<h1 class="display-5 fw-bold text-center text-dark">
+					Popular <span class="text-primary">Destination</span>
+				</h1>
+				<div class="content pt-4">
+					<div class="content-carousel">
+						<div id="destinationCarousel" class="carousel slide" data-bs-ride="carousel">
+							<div class="carousel-inner pb-3">
+								<div class="carousel-item" data-bs-interval="2000">
+									<div class="items d-md-flex gap-4">
+										<div
+											class="item d-none d-md-flex flex-column p-2 border border-3 border-primary rounded-4 bg-light shadow-sm">
+											<div class="head">
+												<img src="../asset/img/destination/akihabara station, chiyoda, tokio.png"
+													alt="tokyo image" class="img-fluid rounded-4" />
+											</div>
+											<div class="item-content mt-3 px-2 pb-1">
+												<h4 class="text-dark m-0">Akihabara Station</h4>
+												<div class="position d-flex align-items-center">
+													<i class="fa-solid fa-location-dot text-primary pe-1"></i>
+													<p class="fs-6 m-0 text-dark fw-medium">Japan</p>
+												</div>
+												<div
+													class="price-tag d-flex justify-content-between align-items-center mt-2">
+													<p class="fs-5 fw-bold text-primary m-0">$300.00</p>
+													<button type="button" class="btn btn-primary fw-medium">
+														Start trip
+													</button>
+												</div>
+											</div>
+										</div>
+										<div
+											class="item d-none d-xl-flex flex-column p-2 border border-3 border-primary rounded-4 bg-light shadow-sm">
+											<div class="head">
+												<img src="../asset/img/destination/Guttannen, Switzerland.png"
+													alt="Switzerland image" class="img-fluid rounded-4" />
+											</div>
+											<div class="item-content mt-3 px-2 pb-1">
+												<h4 class="text-dark m-0">Guttannen</h4>
+												<div class="position d-flex align-items-center">
+													<i class="fa-solid fa-location-dot text-primary pe-1"></i>
+													<p class="fs-6 m-0 text-dark fw-medium">
+														Switzerland
+													</p>
+												</div>
+												<div
+													class="price-tag d-flex justify-content-between align-items-center mt-2">
+													<p class="fs-5 fw-bold text-primary m-0">$300.00</p>
+													<button type="button" class="btn btn-primary fw-medium">
+														Start trip
+													</button>
+												</div>
+											</div>
+										</div>
+										<div
+											class="item d-none d-lg-flex flex-column p-2 border border-3 border-primary rounded-4 bg-light shadow-sm">
+											<div class="head">
+												<img src="../asset/img/destination/Sairgao island, philippines.png"
+													alt="Philippines image" class="img-fluid rounded-4" />
+											</div>
+											<div class="item-content mt-3 px-2 pb-1">
+												<h4 class="text-dark m-0">Sairgao Island</h4>
+												<div class="position d-flex align-items-center">
+													<i class="fa-solid fa-location-dot text-primary pe-1"></i>
+													<p class="fs-6 m-0 text-dark fw-medium">
+														Philippines
+													</p>
+												</div>
+												<div
+													class="price-tag d-flex justify-content-between align-items-center mt-2">
+													<p class="fs-5 fw-bold text-primary m-0">$300.00</p>
+													<button type="button" class="btn btn-primary fw-medium">
+														Start trip
+													</button>
+												</div>
+											</div>
+										</div>
+										<div
+											class="item d-flex flex-column p-2 border border-3 border-primary rounded-4 bg-light shadow-sm">
+											<div class="head">
+												<img src="../asset/img/destination/varenna, italia.png"
+													alt="italy image" class="img-fluid rounded-4" />
+											</div>
+											<div class="item-content mt-3 px-2 pb-1">
+												<h4 class="text-dark m-0">Varenna</h4>
+												<div class="position d-flex align-items-center">
+													<i class="fa-solid fa-location-dot text-primary pe-1"></i>
+													<p class="fs-6 m-0 text-dark fw-medium">
+														Philippines
+													</p>
+												</div>
+												<div
+													class="price-tag d-flex justify-content-between align-items-center mt-2">
+													<p class="fs-5 fw-bold text-primary m-0">$300.00</p>
+													<button type="button" class="btn btn-primary fw-medium">
+														Start trip
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item active" data-bs-interval="2000">
+									<div class="items d-md-flex gap-4">
+										<div
+											class="item d-flex flex-column p-2 border border-3 border-primary rounded-4 bg-light shadow-sm">
+											<div class="head">
+												<img src="../asset/img/destination/akihabara station, chiyoda, tokio.png"
+													alt="tokyo image" class="img-fluid rounded-4" />
+											</div>
+											<div class="item-content mt-3 px-2 pb-1">
+												<h4 class="text-dark m-0">Akihabara Station</h4>
+												<div class="position d-flex align-items-center">
+													<i class="fa-solid fa-location-dot text-primary pe-1"></i>
+													<p class="fs-6 m-0 text-dark fw-medium">Japan</p>
+												</div>
+												<div
+													class="price-tag d-flex justify-content-between align-items-center mt-2">
+													<p class="fs-5 fw-bold text-primary m-0">$300.00</p>
+													<button type="button" class="btn btn-primary fw-medium">
+														Start trip
+													</button>
+												</div>
+											</div>
+										</div>
+										<div
+											class="item d-none d-lg-flex flex-column p-2 border border-3 border-primary rounded-4 bg-light shadow-sm">
+											<div class="head">
+												<img src="../asset/img/destination/Guttannen, Switzerland.png"
+													alt="Switzerland image" class="img-fluid rounded-4" />
+											</div>
+											<div class="item-content mt-3 px-2 pb-1">
+												<h4 class="text-dark m-0">Guttannen</h4>
+												<div class="position d-flex align-items-center">
+													<i class="fa-solid fa-location-dot text-primary pe-1"></i>
+													<p class="fs-6 m-0 text-dark fw-medium">
+														Switzerland
+													</p>
+												</div>
+												<div
+													class="price-tag d-flex justify-content-between align-items-center mt-2">
+													<p class="fs-5 fw-bold text-primary m-0">$300.00</p>
+													<button type="button" class="btn btn-primary fw-medium">
+														Start trip
+													</button>
+												</div>
+											</div>
+										</div>
+										<div
+											class="item d-none d-xl-flex flex-column p-2 border border-3 border-primary rounded-4 bg-light shadow-sm">
+											<div class="head">
+												<img src="../asset/img/destination/Sairgao island, philippines.png"
+													alt="Philippines image" class="img-fluid rounded-4" />
+											</div>
+											<div class="item-content mt-3 px-2 pb-1">
+												<h4 class="text-dark m-0">Sairgao Island</h4>
+												<div class="position d-flex align-items-center">
+													<i class="fa-solid fa-location-dot text-primary pe-1"></i>
+													<p class="fs-6 m-0 text-dark fw-medium">
+														Philippines
+													</p>
+												</div>
+												<div
+													class="price-tag d-flex justify-content-between align-items-center mt-2">
+													<p class="fs-5 fw-bold text-primary m-0">$300.00</p>
+													<button type="button" class="btn btn-primary fw-medium">
+														Start trip
+													</button>
+												</div>
+											</div>
+										</div>
+										<div
+											class="item d-none d-md-flex flex-column p-2 border border-3 border-primary rounded-4 bg-light shadow-sm">
+											<div class="head">
+												<img src="../asset/img/destination/varenna, italia.png"
+													alt="italy image" class="img-fluid rounded-4" />
+											</div>
+											<div class="item-content mt-3 px-2 pb-1">
+												<h4 class="text-dark m-0">Varenna</h4>
+												<div class="position d-flex align-items-center">
+													<i class="fa-solid fa-location-dot text-primary pe-1"></i>
+													<p class="fs-6 m-0 text-dark fw-medium">
+														Philippines
+													</p>
+												</div>
+												<div
+													class="price-tag d-flex justify-content-between align-items-center mt-2">
+													<p class="fs-5 fw-bold text-primary m-0">$300.00</p>
+													<button type="button" class="btn btn-primary fw-medium">
+														Start trip
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item" data-bs-interval="2000">
+									<div class="items d-md-flex gap-4">
+										<div
+											class="item d-none d-xl-flex flex-column p-2 border border-3 border-primary rounded-4 bg-light shadow-sm">
+											<div class="head">
+												<img src="../asset/img/destination/akihabara station, chiyoda, tokio.png"
+													alt="tokyo image" class="img-fluid rounded-4" />
+											</div>
+											<div class="item-content mt-3 px-2 pb-1">
+												<h4 class="text-dark m-0">Akihabara Station</h4>
+												<div class="position d-flex align-items-center">
+													<i class="fa-solid fa-location-dot text-primary pe-1"></i>
+													<p class="fs-6 m-0 text-dark fw-medium">Japan</p>
+												</div>
+												<div
+													class="price-tag d-flex justify-content-between align-items-center mt-2">
+													<p class="fs-5 fw-bold text-primary m-0">$300.00</p>
+													<button type="button" class="btn btn-primary fw-medium">
+														Start trip
+													</button>
+												</div>
+											</div>
+										</div>
+										<div
+											class="item d-sm-none d-md-flex flex-column p-2 border border-3 border-primary rounded-4 bg-light shadow-sm">
+											<div class="head">
+												<img src="../asset/img/destination/Guttannen, Switzerland.png"
+													alt="Switzerland image" class="img-fluid rounded-4" />
+											</div>
+											<div class="item-content mt-3 px-2 pb-1">
+												<h4 class="text-dark m-0">Guttannen</h4>
+												<div class="position d-flex align-items-center">
+													<i class="fa-solid fa-location-dot text-primary pe-1"></i>
+													<p class="fs-6 m-0 text-dark fw-medium">
+														Switzerland
+													</p>
+												</div>
+												<div
+													class="price-tag d-flex justify-content-between align-items-center mt-2">
+													<p class="fs-5 fw-bold text-primary m-0">$300.00</p>
+													<button type="button" class="btn btn-primary fw-medium">
+														Start trip
+													</button>
+												</div>
+											</div>
+										</div>
+										<div
+											class="item d-none d-md-flex flex-column p-2 border border-3 border-primary rounded-4 bg-light shadow-sm">
+											<div class="head">
+												<img src="../asset/img/destination/Sairgao island, philippines.png"
+													alt="Philippines image" class="img-fluid rounded-4" />
+											</div>
+											<div class="item-content mt-3 px-2 pb-1">
+												<h4 class="text-dark m-0">Sairgao Island</h4>
+												<div class="position d-flex align-items-center">
+													<i class="fa-solid fa-location-dot text-primary pe-1"></i>
+													<p class="fs-6 m-0 text-dark fw-medium">
+														Philippines
+													</p>
+												</div>
+												<div
+													class="price-tag d-flex justify-content-between align-items-center mt-2">
+													<p class="fs-5 fw-bold text-primary m-0">$300.00</p>
+													<button type="button" class="btn btn-primary fw-medium">
+														Start trip
+													</button>
+												</div>
+											</div>
+										</div>
+										<div
+											class="item d-none d-lg-flex flex-column p-2 border border-3 border-primary rounded-4 bg-light shadow-sm">
+											<div class="head">
+												<img src="../asset/img/destination/varenna, italia.png"
+													alt="italy image" class="img-fluid rounded-4" />
+											</div>
+											<div class="item-content mt-3 px-2 pb-1">
+												<h4 class="text-dark m-0">Varenna</h4>
+												<div class="position d-flex align-items-center">
+													<i class="fa-solid fa-location-dot text-primary pe-1"></i>
+													<p class="fs-6 m-0 text-dark fw-medium">
+														Philippines
+													</p>
+												</div>
+												<div
+													class="price-tag d-flex justify-content-between align-items-center mt-2">
+													<p class="fs-5 fw-bold text-primary m-0">$300.00</p>
+													<button type="button" class="btn btn-primary fw-medium">
+														Start trip
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-indicators">
+								<button type="button" data-bs-target="#destinationCarousel" data-bs-slide-to="0"
+									aria-current="true" aria-label="Slide 1"></button>
+								<button type="button" data-bs-target="#destinationCarousel" data-bs-slide-to="1"
+									aria-label="Slide 2" class="active"></button>
+								<button type="button" data-bs-target="#destinationCarousel" data-bs-slide-to="2"
+									aria-label="Slide 3"></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="about" class="mt-5 pb-5">
+				<h1 class="display-5 fw-bold text-center text-dark">
+					<span class="text-primary">About </span>Us
+				</h1>
+				<p class="fs-5 fw-medium text-center text-dark">
+					Let's us guide you to another part of the world
+				</p>
+				<div class="row">
+					<div class="item d-none d-md-block col-12 col-md-6 col-lg-4 p-3">
+						<img src="/asset/img/about us/about us 1.png" alt="man standing front of lake"
+							class="img-fluid img-fluid rounded-5 shadow h-100 object-fit-fill shadow" />
+					</div>
+					<div class="item d-none d-md-block col-12 col-md-6 col-lg-4 p-3">
+						<img src="/asset/img/about us/about us 2.png" alt="man standing front of canyon"
+							class="img-fluid img-fluid rounded-5 shadow h-100 object-fit-cover shadow" />
+					</div>
+					<div class="item d-none d-md-block col-12 col-md-6 col-lg-4 p-3">
+						<img src="/asset/img/about us/about us 3.png" alt="man standing front of waterfall"
+							class="img-fluid img-fluid rounded-5 shadow h-100 object-fit-cover shadow" />
+					</div>
+					<div class="item col-12 col-md-6 d-block d-lg-none p-3">
+						<img src="/asset/img/about us/about us 4.png" alt="man standing front of the gate"
+							class="img-fluid img-fluid rounded-5 shadow h-100 object-fit-cover shadow" />
+					</div>
+				</div>
+				<p class="fs-5 fw-medium text-center mt-3 text-dark">
+					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
+					placeat quam sit voluptatibus animi.
+				</p>
+				<div class="foot d-flex justify-content-evenly mt-3">
+					<div class="statis d-flex flex-column align-items-center">
+						<h2 class="text-primary fw-bold">4.5k+</h2>
+						<h4 class="text-dark">Our Explores</h4>
+					</div>
+					<div class="statis d-flex flex-column align-items-center">
+						<h2 class="text-primary fw-bold">15k+</h2>
+						<h4 class="text-dark">Destination</h4>
+					</div>
+					<div class="statis d-flex flex-column align-items-center">
+						<h2 class="text-primary fw-bold">35+</h2>
+						<h4 class="text-dark">Year Experience</h4>
+					</div>
+				</div>
+			</section>
+			<section id="to-do" class="mt-5 pb-5">
+				<h1 class="display-5 fw-bold text-center text-dark">
+					Things <span class="text-primary">You Need To</span>
+				</h1>
+				<p class="fs-5 fw-medium text-center text-dark">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+					aspernatur animi ipsa iste.
+				</p>
+				<div class="tags row gy-4">
+					<div class="tag-item col-12 col-md-6 col-lg-4">
+						<div
+							class="content bg-light border border-3 border-black d-flex flex-column p-4 justify-content-evenly rounded-4 text-secondary shadow">
+							<div class="mb-3">
+								<i class="fa-solid fa-right-to-bracket fa-2xl px-3 py-4 rounded-3 shadow-lg"></i>
+							</div>
+							<h4 class="mb-2">Sign Up</h4>
+							<p class="m-0">
+								Complete all the work associated with planning and processing
+							</p>
+						</div>
+					</div>
+					<div class="tag-item col-12 col-md-6 col-lg-4">
+						<div
+							class="content bg-light border border-3 border-black d-flex flex-column p-4 justify-content-evenly rounded-4 text-secondary shadow">
+							<div class="mb-3">
+								<i class="fa-solid fa-credit-card fa-2xl px-3 py-4 rounded-3 shadow-lg"></i>
+							</div>
+							<h4 class="mb-2">Worth Of Money</h4>
+							<p class="m-0">
+								After successful access then book from exclusive deals &
+								pricing
+							</p>
+						</div>
+					</div>
+					<div class="tag-item col-12 col-lg-4">
+						<div
+							class="content bg-light border border-3 border-black d-flex flex-column p-4 justify-content-evenly rounded-4 text-secondary shadow">
+							<div class="mb-3">
+								<i class="fa-solid fa-globe fa-2xl px-3 py-4 rounded-3 shadow-lg"></i>
+							</div>
+							<h4 class="mb-2">Exciting Travel</h4>
+							<p class="m-0">
+								Start and explore a wide range of exciting travel experience
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="recent" class="mt-5 pb-5">
+				<h1 class="display-5 fw-bold text-center text-dark">
+					<span class="text-primary">Recently </span>Viewed Trips
+				</h1>
+				<p class="fs-5 fw-medium text-center text-dark">
+					Some recent trip photos are shared in front of you
+				</p>
+				<div class="trips mt-5 pb-5">
+					<div class="row gy-5">
+						<div class="trip-item col-12 col-md-4 py-2 gy-md-3">
+							<div class="card border-0 d-flex flex-row flex-md-column m-0 gap-3 h-100">
+								<div class="card-head p-0 col-6 col-md-12">
+									<img src="/asset/img/Trips/Rialto Bridge, Venezia, italy.jpg.png" alt="italy image"
+										class="img-fluid rounded-4 w-100 h-100 object-fit-cover card-img-top shadow" />
+								</div>
+								<div class="card-body col-6 col-md-12 p-0">
+									<h5 class="mb-2 text-dark fw-medium">Rialto Bridge</h5>
+									<div class="rating d-flex align-items-center mt-1 text-primary gap-1">
+										<i class="fa-solid fa-star fa-sm"></i>
+										<i class="fa-solid fa-star fa-sm"></i>
+										<i class="fa-solid fa-star fa-sm"></i>
+										<i class="fa-solid fa-star fa-sm"></i>
+										<i class="fa-solid fa-star fa-sm"></i>
+										<p class="m-0 fw-medium">5.0</p>
+									</div>
+									<p class="card-text text-dark mt-1 text-align">
+										The Rialto Bridge is the oldest of the four bridges
+										spanning the Grand Canal in Venice, Italy. Connecting the
+										sestieri (districts) of San Marco and San Polo, it has
+										been rebuilt several times since its first construction as
+										a pontoon bridge in 1173, and is now a significant tourist
+										attraction in the city.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="trip-item col-12 col-md-4 py-2 gy-md-3">
+							<div class="card border-0 d-flex flex-row flex-md-column m-0 gap-3">
+								<div class="card-head p-0 col-6 col-md-12">
+									<img src="/asset/img/Trips/Khao Sok National Park.jpg.png"
+										alt="Khao Sok Nation Park image"
+										class="img-fluid rounded-4 w-100 h-100 object-fit-cover card-img-top shadow" />
+								</div>
+								<div class="card-body pt-0 col-6 col-md-12 p-0">
+									<h5 class="mb-2 text-dark fw-medium">
+										Khao Sok Nation Park
+									</h5>
+									<div class="rating d-flex align-items-center mt-1 text-primary gap-1">
+										<i class="fa-solid fa-star fa-sm"></i>
+										<i class="fa-solid fa-star fa-sm"></i>
+										<i class="fa-solid fa-star fa-sm"></i>
+										<i class="fa-solid fa-star fa-sm"></i>
+										<i class="fa-solid fa-star fa-sm"></i>
+										<p class="m-0 fw-medium">5.0</p>
+									</div>
+									<p class="card-text text-dark mt-1 text-align">
+										Experience the Rain forest… Khao Sok is perfectly situated
+										on the mainland between Phuket, Krabi, Khao Lak and Koh
+										Samui, the most popular destinations in Southern Thailand.
+										It is a fantastic place to go on vacation. Close and
+										personal elephant encounters, jungle trekking on foot and
+										canoeing are all possible activities, which will give you
+										the experience of a lifetime.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="trip-item col-12 col-md-4 py-2 gy-md-3">
+							<div class="card border-0 d-flex flex-row flex-md-column m-0 gap-3">
+								<div class="card-head p-0 col-6 col-md-12">
+									<img src="/asset/img/Trips/effel towel.jpg.png" alt="France image"
+										class="img-fluid rounded-4 w-100 h-100 object-fit-cover card-img-top shadow" />
+								</div>
+								<div class="card-body p-0 col-6 col-md-12">
+									<h5 class="mb-2 text-dark fw-medium">Eiffel Tower</h5>
+									<div class="rating d-flex align-items-center mt-1 text-primary gap-1">
+										<i class="fa-solid fa-star fa-sm"></i>
+										<i class="fa-solid fa-star fa-sm"></i>
+										<i class="fa-solid fa-star fa-sm"></i>
+										<i class="fa-solid fa-star fa-sm"></i>
+										<i class="fa-solid fa-star fa-sm"></i>
+										<p class="m-0 fw-medium">5.0</p>
+									</div>
+									<p class="card-text text-dark mt-1 text-align">
+										The Eiffel Tower is a wrought-iron lattice tower on the
+										Champ de Mars in Paris,France. It is named after the
+										engineer Gustave Eiffel, whose company designed and built
+										the tower.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="service" class="mt-5 pb-5 row flex-column-reverse flex-lg-row align-items-center">
+				<div class="left-content col-12 col-lg-6">
+					<div class="row">
+						<div class="p-2 col-6">
+							<img src="../asset/img/service/1.jpg.png" alt="Girl on desert"
+								class="rounded-4 p-0 img-fluid shadow" />
+						</div>
+						<div class="p-2 col-6">
+							<img src="../asset/img/service/2.jpg.png" alt="Girl on desert"
+								class="rounded-4 p-0 img-fluid shadow" />
+						</div>
+						<div class="p-2 col-6">
+							<img src="../asset/img/service/3.jpg.png" alt="Girl on desert"
+								class="rounded-4 p-0 img-fluid shadow" />
+						</div>
+						<div class="p-2 col-6">
+							<img src="../asset/img/service/4.jpg.png" alt="Girl on desert"
+								class="rounded-4 p-0 img-fluid shadow" />
+						</div>
+					</div>
+				</div>
+				<div
+					class="right-content col-12 col-lg-6 d-flex flex-column pe-0 ps-2 ps-lg-5 justify-content-center justify-content-lg-start">
+					<h1 class="display-5 fw-bold text-dark ta-end">
+						We always try to give you are<span class="text-primary">
+							best service</span>
+					</h1>
+					<p class="fs-5 fw-medium text-dark ta-end">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+						obcaecati sequi in odio magnam sapiente necessitatibus nihil.
+					</p>
+					<div class="foot d-flex justify-content-evenly mt-3">
+						<div class="statis d-flex flex-column align-items-center">
+							<h2 class="text-primary fw-bold">3k+</h2>
+							<h4 class="text-dark">Success Tour</h4>
+						</div>
+						<div class="statis d-flex flex-column align-items-center">
+							<h2 class="text-primary fw-bold">8k+</h2>
+							<h4 class="text-dark">Happy Traveler</h4>
+						</div>
+						<div class="statis d-flex flex-column align-items-center">
+							<h2 class="text-primary fw-bold">12+</h2>
+							<h4 class="text-dark">Year Experience</h4>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="joint" class="mt-5 pb-5 row gy-4 align-items-center">
+				<div
+					class="left-content col-12 col-lg-6 d-flex flex-column justify-content-center justify-content-lg-start">
+					<h1 class="display-5 fw-bold text-dark">
+						We always try to give you are
+						<span class="text-primary"> best service</span>
+					</h1>
+					<p class="fs-5 fw-medium text-dark">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					</p>
+					<div class="d-flex justify-content-center justify-content-evenly">
+						<button type="button" class="btn btn-primary px-5 py-2 fs-2 rounded-4">
+							Sign In
+						</button>
+						<button type="button" class="btn btn-outline-primary px-4 py-2 fs-2 rounded-4 border-4">
+							Find a trip
+						</button>
+					</div>
+				</div>
+				<div class="right-content col-12 col-lg-6 d-flex flex-column">
+					<video src="../asset/video/vintage travel 30s video (1).mp4" autoplay muted
+						class="p-0 rounded-4 object-fit-cover"></video>
+				</div>
+			</section>
+		</div>
+	</main>
+	<footer class="bg-light shadow p-3">
+		<div class="container">
+			<div class="row gy-3">
+				<div class="brand col-12 col-lg-3 pb-3">
+					<div class="d-flex flex-column">
+						<div class="logo d-flex flex-column align-items-center align-items-lg-start">
+							<a class="navbar-brand fw-bold fs-2" href="#">Travel<span
+									class="text-primary">id.</span></a>
+							<p class="fs-5 fw-medium text-dark">
+								Travelid 2021 all right reserved
+							</p>
+						</div>
+						<div class="social-network d-flex flex-column align-items-center align-items-lg-start">
+							<p class="fs-3 fw-medium text-dark fw-bold">Folow us on</p>
+							<div class="social-network d-flex gap-2">
+								<i class="fa-brands fa-facebook fa-2xl text-primary"></i>
+								<i class="fa-brands fa-twitter fa-2xl text-primary"></i>
+								<i class="fa-brands fa-instagram fa-2xl text-primary"></i>
+								<i class="fa-brands fa-pinterest fa-2xl text-primary"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="menu col-12 col-md-4 col-lg-3 d-flex flex-column align-items-center align-items-lg-start">
+					<p class="fs-3 fw-medium text-dark fw-bold m-0">Menu</p>
+					<ul class="p-0 d-flex flex-column align-items-center align-items-lg-start">
+						<li class="nav-link">
+							<a class="text-decoration-none text-secondary fs-4 fw-medium" href="#">Home</a>
+						</li>
+						<li class="nav-link">
+							<a class="text-decoration-none text-secondary fs-4 fw-medium" href="#">About</a>
+						</li>
+						<li class="nav-link">
+							<a class="text-decoration-none text-secondary fs-4 fw-medium" href="#">Catalogue</a>
+						</li>
+						<li class="nav-link">
+							<a class="text-decoration-none text-secondary fs-4 fw-medium" href="#">Destination</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-12 col-md-4 col-lg-3 d-flex flex-column align-items-center align-items-lg-start">
+					<p class="fs-3 fw-medium text-dark fw-bold m-0">Information</p>
+					<ul class="p-0 d-flex flex-column align-items-center align-items-lg-start">
+						<li class="nav-link">
+							<a class="text-decoration-none text-secondary fs-4 fw-medium" href="#">Destination</a>
+						</li>
+						<li class="nav-link">
+							<a class="text-decoration-none text-secondary fs-4 fw-medium" href="#">About Us</a>
+						</li>
+						<li class="nav-link">
+							<a class="text-decoration-none text-secondary fs-4 fw-medium" href="#">Recently Trip</a>
+						</li>
+						<li class="nav-link">
+							<a class="text-decoration-none text-secondary fs-4 fw-medium" href="#">Best Service</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-12 col-md-4 col-lg-3 d-flex flex-column align-items-center align-items-lg-start">
+					<p class="fs-3 fw-medium text-dark fw-bold m-0">Contact</p>
+					<ul class="p-0 d-flex flex-column align-items-center align-items-lg-start">
+						<li class="nav-link">
+							<a href="tel:+123 456 789" class="text-decoration-none text-secondary fs-4 fw-medium"></a>
+						</li>
+						<li class="nav-link">
+							<a class="text-decoration-none text-secondary fs-4 fw-medium" href="#">Explore</a>
+						</li>
+						<li class="nav-link">
+							<a href="mailto:Info@travelid.com"
+								class="text-decoration-none text-secondary fs-4 fw-medium">Info@travelid.com</a>
+						</li>
+						<li class="nav-link">
+							<a class="text-decoration-none text-secondary fs-4 fw-medium" href="#">1245, NYC, USA</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>

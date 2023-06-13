@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Satoshi";
+    src: url(/asset/css/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Medium.woff) format("woff");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Satoshi";
+    background-color: #EEF9FF;
+}
+
+.text-align {
+    text-align: justify;
+}
+
+.tag-item .content:hover {
+    background-color: #5170fd !important;
+    border-color: #5170fd !important;
+    color: #f8f8f8 !important;
+}
+
+.underlay {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.68) 45.83%);
+}
+
+.box-sizing {
+    box-sizing: border-box;
+}
+
+.top-90 {
+    top: 90%;
+}
+
+.continent img {
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+}
+
+.continent:hover img {
+    transform: scale(1.5);
+}
+
+.overlay {
+    transition: 0.5s ease-in-out;
+}
+
+.continent:hover .overlay {
+    top: 50%;
+    font-size: 5rem !important;
+}
+
+.continent:hover h6 {
+    font-size: 3rem !important;
+}
+
+.icon {
+    animation-iteration-count: 3;
+    margin: 0 !important;
+}
+
+.type {
+    backdrop-filter: blur(10px);
+    background-color: #fafafafa;
+}
+
+.transport-card_body {
+    background: rgba(12, 12, 12, 0.603);
+    backdrop-filter: blur(7px);
+    transition: 1s ease-in-out;
+}
+
+.transport-card_body p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3.5;
+}
+
+.content-container:hover .transport-card_body {
+    left: 0% !important;
+}
+
+.bg-blur {
+    background: rgba(255, 255, 255, 0.171);
+    backdrop-filter: blur(10px);
+}
+
+.destination-banner {
+    height: 20vh !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .text-align-center {
+        text-align: center !important;
+    }
+}
